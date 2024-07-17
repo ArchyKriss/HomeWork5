@@ -9,21 +9,20 @@ public class Main {
         }
 
         //task2
-        int clientOS2 = 1;
+
+       int clientOS2 = 1;
         int clientDiviseYear = 2015;
-        if(clientDiviseYear>=2015){
-            if (clientOS2==0){
-                System.out.println("Установите версию приложения для iOS по ссылке");
-            }else if(clientOS2==1){
+        if(clientDiviseYear>=2015&&clientOS2==0){
+            System.out.println("Установите версию приложения для iOS по ссылке");
+            }else if(clientDiviseYear>=2015&&clientOS2==1){
                 System.out.println("Установите версию приложения для Android по ссылке");
-            }}
-        else if(clientDiviseYear<2015){
-            if(clientOS2==0){
+            }
+        else if(clientDiviseYear<2015&&clientOS2==0){
                 System.out.println("Установите облегченную версию приложения для iOS по ссылке");
-            }else if(clientOS2==1){
+            }else if(clientDiviseYear<2015&&clientOS2==1){
                 System.out.println("Установите облегченную версию приложения для Android по ссылке");
             }
-        }
+
 
         //task3
         int year = 100;
